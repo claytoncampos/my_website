@@ -1,0 +1,32 @@
+---
+import SocialIcons from '../SocialIcons.astro';
+import Title from '../atoms/Title.astro';
+import "./about.css"
+
+
+---
+
+<section id="about" class="about">
+	<div class="about__container">
+		<img
+			class="about__img"
+			src="/public/img/eu3.jpeg"
+			alt="Foto de perfil de Jhon Doe"
+		/>
+
+		<div class="about__content">
+			<Title margin="1rem" contenido="Sobre Mim" />
+			<p class="about__text">
+				Pós graduado em engenharia de dados, + de 5 anos de expeciência com big data, análise e engenharia de dados, criação e manutenção de pipelines.</br>
+				Possuo Experiência com Plataforma Cloudera, Teradata, Azure e Data Bricks.</br>
+				Ferramentas Apache: airflow, hue, hive, hbase, impala, kudu, kafka, sqoop e spark.</br>
+				Teradata: TDCH, BTEQ, FATEXPORT, FASTLOAD, MLOAD e MULTILOD.</br>
+				Desenvolvimento de pipelines e scripts para consumo de API's, processos de ETL e ELT, utilizando Shell Script, Python e Pyspark em Ambientes Big Data e TERADATA.</br>
+				Experiência com sustentação, suporte, gerenciamento e monitoramento de ambiente Teradata e Cloudera HDP e CDP, Clusters hadoop e seu ecossistema de ferramentas.
+				Criação de processos de automação, observabilidade com grafana, prometheus e ELK.
+			</p>
+			<SocialIcons width="25" height="25"/>
+		</div>
+	</div>
+
+</section>
