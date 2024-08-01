@@ -17,19 +17,19 @@
  */
 export const portafolioData = [
 	{
-		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
-		title: 'Restaurant',
-		skills: ['React', 'StyledComponents'],
+		imgSrc: 'img/proj1.png',
+		title: 'ETL + Airflow + API Twitter',
+		skills: ['React', 'Golang'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'Extração de dados da API do Twitter usando Apache airflow e carregando dados no data lake.',
 		demoURL: '',
-		repoURL: '',
+		repoURL: 'https://github.com/claytoncampos/airflow_etl_twitter.git',
 		anim: 'fade-right',
 	},
 	{
 		imgSrc: 'https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/299377097/original/7eb7dcebe244fcf5ad75d92b0969fc116946bd57/create-professional-amd-responsive-wordpress-website.jpg',
 		title: 'E-commerce',
-		skills: ['JavaScript', 'Bootstrap'],
+		skills: ['JavaScript', 'Bootstrap'],//<iconify-icon icon="skill-icons:javascript"></iconify-icon>
 		descripcion:
 			' Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
 		demoURL: '',
