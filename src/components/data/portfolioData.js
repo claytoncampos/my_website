@@ -19,7 +19,7 @@ export const portafolioData = [
 	{
 		imgSrc: 'img/proj1.png',
 		title: 'ETL + Airflow + API Twitter',
-		skills: ['React', 'Golang'],
+		skills: ['Airflow', 'Python', 'Api', 'Twitter'],
 		descripcion:
 			'Extração de dados da API do Twitter usando Apache airflow e carregando dados no data lake.',
 		demoURL: '',
@@ -88,6 +88,10 @@ const skillIcons = {
 	StyledComponents: 'skill-icons:styledcomponents',
 	Bootstrap: 'skill-icons:bootstrap',
 	Tailwind: 'skill-icons:tailwindcss-dark',
+	Airflow:"logos:airflow-icon",
+	Python: "devicon:python",
+	Api: "eos-icons:api-outlined",
+	Twitter: "logos:twitter"
 };
 
 /**
