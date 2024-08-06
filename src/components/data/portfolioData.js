@@ -27,11 +27,11 @@ export const portafolioData = [
 		anim: 'fade-right',
 	},
 	{
-		imgSrc: 'https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/299377097/original/7eb7dcebe244fcf5ad75d92b0969fc116946bd57/create-professional-amd-responsive-wordpress-website.jpg',
-		title: 'E-commerce',
-		skills: ['JavaScript', 'Bootstrap'],//<iconify-icon icon="skill-icons:javascript"></iconify-icon>
+		imgSrc: 'img/proj2.png',
+		title: 'Validador de Schema Excel',
+		skills: ['Python', 'Streamlit', 'Pydantic','Pytest','Excel'],//<iconify-icon icon="skill-icons:javascript"></iconify-icon>
 		descripcion:
-			' Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			' Validador de schema de arquivos excel para ingestão de dados, utilizando, Pydantic, Pytest e StreamLit',
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-up',
@@ -91,7 +91,11 @@ const skillIcons = {
 	Airflow:"logos:airflow-icon",
 	Python: "devicon:python",
 	Api: "eos-icons:api-outlined",
-	Twitter: "logos:twitter"
+	Twitter: "logos:twitter",
+	Streamlit: "devicon:streamlit",
+	Pydantic: "simple-icons:pydantic",
+	Pytest:"devicon:pytest-wordmark",
+	Excel:"vscode-icons:file-type-excel"
 };
 
 /**
