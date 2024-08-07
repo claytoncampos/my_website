@@ -32,19 +32,19 @@ export const portafolioData = [
 		skills: ['Python', 'Streamlit', 'Pydantic','Pytest','Excel'],//<iconify-icon icon="skill-icons:javascript"></iconify-icon>
 		descripcion:
 			' Validador de schema de arquivos excel para ingestão de dados, utilizando, Pydantic, Pytest e StreamLit',
-		demoURL: '',
-		repoURL: '',
+		demoURL: 'https://validatorschemaexcel.streamlit.app/',
+		repoURL: 'https://github.com/claytoncampos/validator_schema_excel',
 		anim: 'fade-up',
 		averageBrightness: 0.1,
 	},
 	{
-		imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
-		title: 'Coffe Store',
-		skills: ['React', 'CSS'],
+		imgSrc: 'img/proj3.png',
+		title: 'Web Scraping + ETL + M Livre',
+		skills: ['Python', 'Scrapy','Streamlit','Ml','Sqlite'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
+			'Projeto de ETL com Web scraping do Mercado livre utilizando o framework scrapy e apresentando o resultado com streamlit, faz a raspagem de 2 produtos Tenis masculino e fraldas',
+		demoURL: 'https://scrapingml.streamlit.app/',
+		repoURL: 'https://github.com/claytoncampos/scraping_ml',
 		anim: 'fade-left',
 	},
 	{
@@ -95,7 +95,10 @@ const skillIcons = {
 	Streamlit: "devicon:streamlit",
 	Pydantic: "simple-icons:pydantic",
 	Pytest:"devicon:pytest-wordmark",
-	Excel:"vscode-icons:file-type-excel"
+	Excel:"vscode-icons:file-type-excel",
+	Scrapy:"simple-icons:scrapy",
+	Ml:"simple-icons:mercadopago",
+	Sqlite:"skill-icons:sqlite"
 };
 
 /**
