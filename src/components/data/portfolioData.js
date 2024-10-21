@@ -48,13 +48,13 @@ export const portafolioData = [
 		anim: 'fade-left',
 	},
 	{
-		imgSrc: 'https://www.corse.mx/cdn/shop/files/tienda_lenceria-lenceria-hot_sale-ofertas-mexico-lenceria_seyx-encaje-corse_mx-corse_lenceria_1200_x_560_px_13.png?v=1712270274&width=1500',
-		title: 'Coffe Store',
-		skills: ['React', 'CSS'],
+		imgSrc: 'img/dbt_project_finance.png',
+		title: 'DBT + Postgres + ELT + Modelagem',
+		skills: ['Dbt', 'Python', 'Postgres','Docker'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'Projeto de ELT com DBT, Postgres, Python e Docker, realizando toda modelagem e transformação para o DW',
 		demoURL: '',
-		repoURL: '',
+		repoURL: 'https://github.com/claytoncampos/pipeline-dbt-postgres',
 		anim: 'fade-left',
 	},
 	{
@@ -98,7 +98,10 @@ const skillIcons = {
 	Excel:"vscode-icons:file-type-excel",
 	Scrapy:"simple-icons:scrapy",
 	Ml:"simple-icons:mercadopago",
-	Sqlite:"skill-icons:sqlite"
+	Sqlite:"skill-icons:sqlite",
+	Dbt:"logos:dbt",
+	Postgres:"devicon:postgresql",
+	Docker:"devicon:docker-wordmark"
 };
 
 /**
