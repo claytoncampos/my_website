@@ -17,6 +17,16 @@
  */
 export const portafolioData = [
 	{
+		imgSrc: 'img/dbt_project_finance.png',
+		title: 'DBT + Postgres + ELT + Modelagem',
+		skills: ['Dbt', 'Python', 'Postgres','Docker'],
+		descripcion:
+			'Projeto de ELT com DBT, Postgres, Python e Docker, realizando toda modelagem e transformação para o DW',
+		demoURL: '',
+		repoURL: 'https://github.com/claytoncampos/pipeline-dbt-postgres',
+		anim: 'fade-left',
+	},
+	{
 		imgSrc: 'img/proj1.png',
 		title: 'ETL + Airflow + API Twitter',
 		skills: ['Airflow', 'Python', 'Api', 'Twitter'],
@@ -25,17 +35,6 @@ export const portafolioData = [
 		demoURL: '',
 		repoURL: 'https://github.com/claytoncampos/airflow_etl_twitter.git',
 		anim: 'fade-right',
-	},
-	{
-		imgSrc: 'img/proj2.png',
-		title: 'Validador de Schema Excel',
-		skills: ['Python', 'Streamlit', 'Pydantic','Pytest','Excel'],//<iconify-icon icon="skill-icons:javascript"></iconify-icon>
-		descripcion:
-			' Validador de schema de arquivos excel para ingestão de dados, utilizando, Pydantic, Pytest e StreamLit',
-		demoURL: 'https://validatorschemaexcel.streamlit.app/',
-		repoURL: 'https://github.com/claytoncampos/validator_schema_excel',
-		anim: 'fade-up',
-		averageBrightness: 0.1,
 	},
 	{
 		imgSrc: 'img/proj3.png',
@@ -48,14 +47,15 @@ export const portafolioData = [
 		anim: 'fade-left',
 	},
 	{
-		imgSrc: 'img/dbt_project_finance.png',
-		title: 'DBT + Postgres + ELT + Modelagem',
-		skills: ['Dbt', 'Python', 'Postgres','Docker'],
+		imgSrc: 'img/proj2.png',
+		title: 'Validador de Schema Excel',
+		skills: ['Python', 'Streamlit', 'Pydantic','Pytest','Excel'],//<iconify-icon icon="skill-icons:javascript"></iconify-icon>
 		descripcion:
-			'Projeto de ELT com DBT, Postgres, Python e Docker, realizando toda modelagem e transformação para o DW',
-		demoURL: '',
-		repoURL: 'https://github.com/claytoncampos/pipeline-dbt-postgres',
-		anim: 'fade-left',
+			' Validador de schema de arquivos excel para ingestão de dados, utilizando, Pydantic, Pytest e StreamLit',
+		demoURL: 'https://validatorschemaexcel.streamlit.app/',
+		repoURL: 'https://github.com/claytoncampos/validator_schema_excel',
+		anim: 'fade-up',
+		averageBrightness: 0.1,
 	},
 	{
 		imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
